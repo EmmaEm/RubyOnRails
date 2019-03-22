@@ -1,0 +1,13 @@
+What is a framework? Why is Ruby on Rails popular?
+  - A framework is a tool that builds out the main structure of your code for you. You can use the framework as a template and customize your app to fit your needs within the structure it provides.
+What are alternative frameworks, compare.
+  - The framework I'm most familiar with is Express.js, which seems to have a lot of similarity to Rails. One critisism I've found of Express is that there is not always one clear correct way of doing things. Both Express and Rails have a wide range of compatible libraries available through npm or gems. Both Express and Rails also have strong communities so it is generally pretty easy to find tutorials or resources for troubleshooting. Rails is said to beginner friendly but can sometimes be difficult in a production environment.
+What are components of the RoR framework? How do they fit together?
+  - MVC & router
+We're doing RoR with client side rendering. What does that mean?
+  - 
+
+
+sources:
+https://hackr.io/blog/top-10-web-development-frameworks-in-2019
+http://www.mindfiresolutions.com/blog/2018/06/ruby-web-frameworks-2018/
