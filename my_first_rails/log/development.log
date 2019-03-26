@@ -146,3 +146,1162 @@ FOREIGN KEY ("student_id")
   ↳ bin/rails:9
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-03-25 17:04:32 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 32ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/day" for ::1 at 2019-03-25 17:04:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/day"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/Day" for ::1 at 2019-03-25 17:04:43 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Day"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/day/day" for ::1 at 2019-03-25 17:04:58 -0700
+Processing by DayController#day as HTML
+  Rendering day/day.html.erb within layouts/application
+  Rendered day/day.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 250ms (Views: 248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-25 17:10:35 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 28ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome" for ::1 at 2019-03-25 17:10:40 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/welcome/index" for ::1 at 2019-03-25 17:10:44 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 196ms (Views: 193.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2019-03-25 17:11:20 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for ::1 at 2019-03-25 17:11:50 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 217ms (Views: 198.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/" for ::1 at 2019-03-25 17:11:57 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/welcome/" for ::1 at 2019-03-25 17:12:17 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-03-25 17:15:03 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 226ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 09:34:51 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 09:35:16 -0700
+Processing by DayController#day as HTML
+  Rendering day/day.html.erb within layouts/application
+  Rendered day/day.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar" for ::1 at 2019-03-26 09:54:34 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/calendar"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendar" for ::1 at 2019-03-26 09:55:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calendar"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-03-26 09:56:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 246ms (Views: 243.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 09:56:39 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Calendars/weekly_schedule" for ::1 at 2019-03-26 10:04:54 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Calendars/weekly_schedule"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:05:12 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calendars/weekly_schedule"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:05:25 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/calendars/weekly_schedule"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:05:30 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calendars/weekly_schedule"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:06:43 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/articles/new"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:09:53 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/new"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-03-26 10:10:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 257ms (Views: 254.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 10:10:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 10:10:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2019-03-26 10:11:11 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/articles/new"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:13:00 -0700
+  
+SyntaxError (/Users/emmabrown/Desktop/RubyOnRails/my_first_rails/config/routes.rb:3: syntax error, unexpected ':', expecting keyword_end
+  resources: articles
+            ^):
+  
+config/routes.rb:3: syntax error, unexpected ':', expecting keyword_end
+Started GET "/articles/new" for ::1 at 2019-03-26 10:13:16 -0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/calendars/weekly_schedule" for ::1 at 2019-03-26 10:14:56 -0700
+  
+NameError (undefined local variable or method `calendars' for #<ActionDispatch::Routing::Mapper:0x00007f9532aa1d50>
+Did you mean?  caller):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:15:29 -0700
+  
+NameError (undefined local variable or method `calendars' for #<ActionDispatch::Routing::Mapper:0x00007f953b98d0a0>
+Did you mean?  caller):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:15:40 -0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2019-03-26 10:15:58 -0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:16:06 -0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for CalendarsController):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:129:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionview-5.2.2.1/lib/action_view/rendering.rb:32:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/articles/new" for ::1 at 2019-03-26 10:18:12 -0700
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-03-26 10:47:07 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:47:40 -0700
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for CalendarsController):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:129:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionview-5.2.2.1/lib/action_view/rendering.rb:32:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/ergaerhg" for ::1 at 2019-03-26 10:48:54 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/ergaerhg"):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:54:48 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 406 Not Acceptable in 100ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (CalendarsController#weekly_schedule is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:194:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/rendering.rb:30:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:132:in `run_callbacks'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/callbacks.rb:41:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/rescue.rb:22:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `block in instrument'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/notifications.rb:168:in `instrument'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/abstract_controller/base.rb:134:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionview-5.2.2.1/lib/action_view/rendering.rb:32:in `process'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:191:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_controller/metal.rb:252:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:34:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:52:in `block in serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `each'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/journey/router.rb:35:in `serve'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/routing/route_set.rb:840:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/tempfile_reaper.rb:15:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/etag.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/conditional_get.rb:25:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/head.rb:12:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:232:in `context'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/session/abstract/id.rb:226:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/cookies.rb:670:in `call'
+vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/migration.rb:559:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/callbacks.rb:98:in `run_callbacks'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:30:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `catch'
+vendor/bundle/ruby/2.3.0/gems/web-console-3.7.0/lib/web_console/middleware.rb:20:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:38:in `call_app'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `block in call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/rack/logger.rb:26:in `call'
+vendor/bundle/ruby/2.3.0/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/request_id.rb:27:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.3.0/gems/activesupport-5.2.2.1/lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/executor.rb:14:in `call'
+vendor/bundle/ruby/2.3.0/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/static.rb:127:in `call'
+vendor/bundle/ruby/2.3.0/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+vendor/bundle/ruby/2.3.0/gems/railties-5.2.2.1/lib/rails/engine.rb:524:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/configuration.rb:227:in `call'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:660:in `handle_request'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:474:in `process_client'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/server.rb:334:in `block in run'
+vendor/bundle/ruby/2.3.0/gems/puma-3.12.1/lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:56:11 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 10:57:55 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-26 11:29:31 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Emma"], ["last_name", "Brown"], ["email", "ebrown@whitneyps.org"], ["created_at", "2019-03-26 18:47:16.586818"], ["updated_at", "2019-03-26 18:47:16.586818"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jane"], ["last_name", "Doe"], ["email", "jd@email.com"], ["created_at", "2019-03-26 20:16:52.836005"], ["updated_at", "2019-03-26 20:16:52.836005"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jon"], ["last_name", "Snow"], ["email", "jsnow@ravens.com"], ["created_at", "2019-03-26 20:18:01.662296"], ["updated_at", "2019-03-26 20:18:01.662296"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (?, ?)[0m  [["id", 1], ["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (?, ?)[0m  [["id", 1], ["id", 2]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN (?, ?)[0m  [["id", 1], ["id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "asections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "date_time" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "asections" ("id","name","date_time","created_at","updated_at")
+                     SELECT "id","name","date_time","created_at","updated_at" FROM "sections"[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "sections"[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "date_time" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "sections" ("id","name","date_time","created_at","updated_at")
+                     SELECT "id","name","date_time","created_at","updated_at" FROM "asections"[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "asections"[0m
+  ↳ db/migrate/20190326210540_remove_datetime_from_sections.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190326210540"]]
+  ↳ bin/rails:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to RemoveDatetimeFromSections (20190326210540)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to RemoveDatetimeFromSections2 (20190326211550)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "asections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "date_time" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "asections" ("id","name","date_time","created_at","updated_at")
+                     SELECT "id","name","date_time","created_at","updated_at" FROM "sections"[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "sections"[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "sections" ("id","name","created_at","updated_at")
+                     SELECT "id","name","created_at","updated_at" FROM "asections"[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "asections"[0m
+  ↳ db/migrate/20190326211550_remove_datetime_from_sections2.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190326211550"]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDayAndTimeToSections (20190326211653)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "section" ADD "day" varchar[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:3
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to RemoveDatetimeFromSections2 (20190326211550)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddDayAndTimeToSections (20190326211653)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "section" ADD "day" varchar[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:3
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to AddDayAndTimeToSections (20190326211653)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "sections" ADD "day" varchar[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "sections" ADD "time" time[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190326211653"]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to AddDayAndTimeToSections (20190326211653)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "asections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "day" varchar DEFAULT NULL, "time" time DEFAULT NULL)[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "asections" ("id","name","created_at","updated_at","day","time")
+                     SELECT "id","name","created_at","updated_at","day","time" FROM "sections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "sections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "day" varchar DEFAULT NULL)[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "sections" ("id","name","created_at","updated_at","day")
+                     SELECT "id","name","created_at","updated_at","day" FROM "asections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "asections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "asections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "day" varchar DEFAULT NULL)[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "asections" ("id","name","created_at","updated_at","day")
+                     SELECT "id","name","created_at","updated_at","day" FROM "sections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "sections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "sections" ("id","name","created_at","updated_at")
+                     SELECT "id","name","created_at","updated_at" FROM "asections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "asections"[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.3ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20190326211653"]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to AddDayAndTimeToSections (20190326211653)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "sections" ADD "weekday" integer[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "sections" ADD "hour" time[0m
+  ↳ db/migrate/20190326211653_add_day_and_time_to_sections.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190326211653"]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+Migrating to FixHour (20190326214924)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "asections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "weekday" integer DEFAULT NULL, "section_time" time DEFAULT NULL)[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "asections" ("id","name","created_at","updated_at","weekday","section_time")
+                     SELECT "id","name","created_at","updated_at","weekday","hour" FROM "sections"[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "sections"[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "sections" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "weekday" integer DEFAULT NULL, "section_time" time DEFAULT NULL)[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "sections" ("id","name","created_at","updated_at","weekday","section_time")
+                     SELECT "id","name","created_at","updated_at","weekday","section_time" FROM "asections"[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "asections"[0m
+  ↳ db/migrate/20190326214924_fix_hour.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190326214924"]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Arya"], ["last_name", "Stark"], ["email", "no1@ravens.com"], ["created_at", "2019-03-26 22:00:36.090194"], ["updated_at", "2019-03-26 22:00:36.090194"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("last_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["last_name", "Someone"], ["created_at", "2019-03-26 22:01:59.860052"], ["updated_at", "2019-03-26 22:01:59.860052"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
