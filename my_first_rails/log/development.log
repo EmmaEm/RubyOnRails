@@ -1305,3 +1305,145 @@ Migrating to FixHour (20190326214924)
   [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("last_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["last_name", "Someone"], ["created_at", "2019-03-26 22:01:59.860052"], ["updated_at", "2019-03-26 22:01:59.860052"]]
   [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.4ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday") VALUES (?, ?, ?, ?)[0m  [["name", "Biology"], ["created_at", "2019-03-26 22:16:20.585182"], ["updated_at", "2019-03-26 22:16:20.585182"], ["weekday", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.3ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday", "section_time") VALUES (?, ?, ?, ?, ?)[0m  [["name", "History"], ["created_at", "2019-03-26 22:17:48.076387"], ["updated_at", "2019-03-26 22:17:48.076387"], ["weekday", 2], ["section_time", "2000-01-01 13:00:00"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:05:15 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:05:32 -0700
+  
+SyntaxError (/Users/emmabrown/Desktop/RubyOnRails/my_first_rails/app/controllers/calendars_controller.rb:3: syntax error, unexpected '}', expecting =>):
+  
+app/controllers/calendars_controller.rb:3: syntax error, unexpected '}', expecting =>
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:10:19 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by CalendarsController#weekly_schedule as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/calendars_controller.rb:3
+Completed 200 OK in 28ms (Views: 7.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:15:19 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `asc' for #<CalendarsController:0x00007f825ba4bb38>):
+  
+app/controllers/calendars_controller.rb:3:in `weekly_schedule'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:15:42 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `weekday' for #<CalendarsController:0x00007f825ba37958>):
+  
+app/controllers/calendars_controller.rb:3:in `weekly_schedule'
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 09:15:47 -0700
+Processing by CalendarsController#weekly_schedule as HTML
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections" ORDER BY "sections"."weekday" ASC[0m
+  ↳ app/controllers/calendars_controller.rb:3
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.8ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.4ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday") VALUES (?, ?, ?, ?)[0m  [["name", "Algebra"], ["created_at", "2019-03-28 16:20:07.047530"], ["updated_at", "2019-03-28 16:20:07.047530"], ["weekday", 5]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSection Load (0.5ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.4ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday", "section_time") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Art"], ["created_at", "2019-03-28 16:22:37.134763"], ["updated_at", "2019-03-28 16:22:37.134763"], ["weekday", 2], ["section_time", "2000-01-01 15:00:00"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSection Load (0.6ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSection Load (1.9ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.4ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday", "section_time") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Biology"], ["created_at", "2019-03-28 16:42:23.823883"], ["updated_at", "2019-03-28 16:42:23.823883"], ["weekday", 3], ["section_time", "2000-01-01 09:00:00"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Create (0.4ms)[0m  [1m[32mINSERT INTO "sections" ("name", "created_at", "updated_at", "weekday", "section_time") VALUES (?, ?, ?, ?, ?)[0m  [["name", "History"], ["created_at", "2019-03-28 16:44:32.748407"], ["updated_at", "2019-03-28 16:44:32.748407"], ["weekday", 4], ["section_time", "2000-01-01 13:00:00"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["email", "motherofdragons@ravens.com"], ["created_at", "2019-03-28 16:46:40.683090"], ["updated_at", "2019-03-28 16:46:40.683090"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tyrion"], ["last_name", "Lannister"], ["email", "drinkandknowthings@ravens.com"], ["created_at", "2019-03-28 16:47:59.553454"], ["updated_at", "2019-03-28 16:47:59.553454"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mSectionStudent Create (0.6ms)[0m  [1m[32mINSERT INTO "section_students" ("section_id", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["section_id", 1], ["student_id", 3], ["created_at", "2019-03-28 16:51:31.318172"], ["updated_at", "2019-03-28 16:51:31.318172"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Load (0.1ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mSectionStudent Create (0.6ms)[0m  [1m[32mINSERT INTO "section_students" ("section_id", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["section_id", 1], ["student_id", 6], ["created_at", "2019-03-28 16:51:38.646377"], ["updated_at", "2019-03-28 16:51:38.646377"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSectionStudent Load (0.3ms)[0m  [1m[34mSELECT  "section_students".* FROM "section_students" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Load (0.1ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mSectionStudent Create (0.7ms)[0m  [1m[32mINSERT INTO "section_students" ("section_id", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["section_id", 1], ["student_id", 6], ["created_at", "2019-03-28 16:58:22.658031"], ["updated_at", "2019-03-28 16:58:22.658031"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/calendars/weekly_schedule" for ::1 at 2019-03-28 10:43:10 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by CalendarsController#weekly_schedule as HTML
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT "sections".* FROM "sections" ORDER BY "sections"."weekday" ASC[0m
+  ↳ app/controllers/calendars_controller.rb:3
+Completed 200 OK in 29ms (Views: 6.9ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mSection Load (0.3ms)[0m  [1m[34mSELECT "sections".* FROM "sections"[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mSectionStudent Create (1.2ms)[0m  [1m[32mINSERT INTO "section_students" ("section_id", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["section_id", 1], ["student_id", 7], ["created_at", "2019-03-28 17:49:53.461728"], ["updated_at", "2019-03-28 17:49:53.461728"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Library/Ruby/Gems/2.3.0/gems/rake-12.3.2/lib/rake/application.rb:83
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mSection Load (0.1ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" WHERE "sections"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mSectionStudent Create (0.9ms)[0m  [1m[32mINSERT INTO "section_students" ("section_id", "student_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["section_id", 1], ["student_id", 7], ["created_at", "2019-03-28 17:51:42.869259"], ["updated_at", "2019-03-28 17:51:42.869259"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mSection Load (0.2ms)[0m  [1m[34mSELECT  "sections".* FROM "sections" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2019-03-28 10:59:38 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ vendor/bundle/ruby/2.3.0/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 230ms (Views: 211.3ms | ActiveRecord: 0.0ms)
+
+
