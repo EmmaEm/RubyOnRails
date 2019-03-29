@@ -5,27 +5,28 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
+my_first_rails/.bundle
 
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+# /db/*.sqlite3
+# /db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+my_first_rails/log/*
+my_first_rails/tmp/*
+my_first_rails!/log/.keep
+my_first_rails!/tmp/.keep
 
 # Ignore uploaded files in development
-/storage/*
-!/storage/.keep
+my_first_rails/storage/*
+my_first_rails!/storage/.keep
 
-/node_modules
-/yarn-error.log
+my_first_rails/node_modules
+my_first_rails/yarn-error.log
 
-/public/assets
-.byebug_history
+my_first_rails/public/assets
+my_first_rails/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-/config/master.key
+my_first_rails/config/master.key
+
